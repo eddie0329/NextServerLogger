@@ -3,7 +3,7 @@ import {
 	SERVER_LOGGER_PROPS_KEY,
 	SERVER_APP_LOGGER_PROPS_KEY,
 } from './constants';
-import { getServerLogger } from './getNextServerLogger';
+import { nextServerLogger } from './NextServerLogger';
 
 interface NextServerLoggerProviderProps {
 	pageProps: any;
@@ -15,7 +15,7 @@ export default function NextServerLoggerProvider({
 	enable = true,
 }: NextServerLoggerProviderProps): ReactElement {
 	const serverLogger = useMemo(() => {
-		return getServerLogger();
+		return nextServerLogger;
 	}, []);
 	useEffect(() => {
 		const loggerAppStack = pageProps?.[SERVER_APP_LOGGER_PROPS_KEY] ?? [];

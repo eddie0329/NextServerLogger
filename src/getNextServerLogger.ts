@@ -1,10 +1,6 @@
-import { NextServerLoggerInstance, nextServerLogger } from './NextServerLogger';
+import { nextServerLogger } from './NextServerLogger';
 
-interface OpenedServerLoggerInterface {
-	log: NextServerLoggerInstance['log'];
-	getLoggerProps: NextServerLoggerInstance['getLoggerProps'];
-	getAppLoggerProps: NextServerLoggerInstance['getAppLoggerProps'];
-}
-
-export const getServerLogger = (): OpenedServerLoggerInterface =>
-	nextServerLogger;
+export const getServerLogger = (): Pick<
+	typeof nextServerLogger,
+	'log' | 'getAppLoggerProps' | 'getLoggerProps'
+> => nextServerLogger;

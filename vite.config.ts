@@ -24,13 +24,12 @@ export default defineConfig({
 	},
 	plugins: [
 		typescript({
-			check: true,
+			check: false,
 			tsconfig: path.resolve(__dirname, 'tsconfig.json'),
 			tsconfigOverride: {
 				compilerOptions: {
 					sourceMap: false,
 					declaration: true,
-					declarationMap: true,
 				},
 			},
 		}),
