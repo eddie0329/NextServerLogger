@@ -1,28 +1,23 @@
 {
-  "compilerOptions": {
-    "target": "es2015",
-    "outDir": "dist",
-    "module": "esnext",
-    "strict": true,
-    "jsx": "preserve",
-    "importHelpers": true,
-    "moduleResolution": "node",
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "sourceMap": true,
-    "baseUrl": ".",
-    "declaration": true,
-    "noImplicitAny": false,
-    "paths": {
-      "@/*": ["src/*"],
-      "tslib" : ["path/to/node_modules/tslib/tslib.d.ts"],
-    },
-    "noEmit": false,
-    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
-  },
-  "include": [
-    "src/**/*",
-  ],
-  "exclude": ["node_modules"]
+	"compilerOptions": {
+		"target": "es2015",
+		"outDir": "dist",
+		"module": "esnext",
+		"strict": true,
+		"jsx": "preserve",
+		"importHelpers": true,
+		"moduleResolution": "node",
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"baseUrl": ".",
+		"declaration": true,
+		"noImplicitAny": false,
+		"emitDeclarationOnly": true,
+		"noEmit": false,
+		"lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
 }

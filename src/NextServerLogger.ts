@@ -1,6 +1,6 @@
 import {stringify, parse} from 'flatted'
-import {SERVER_LOGGER_PROPS_KEY, SERVER_APP_LOGGER_PROPS_KEY} from '@/constants'
-import {isClientSide, error} from '@/utils'
+import {SERVER_LOGGER_PROPS_KEY, SERVER_APP_LOGGER_PROPS_KEY} from './constants'
+import {isClientSide, error} from './utils'
 
 export type NextServerLoggerInstance = InstanceType<typeof NextServerLogger>
 

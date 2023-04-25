@@ -2,8 +2,8 @@ import React, { ReactElement, useEffect, useMemo } from 'react';
 import {
 	SERVER_LOGGER_PROPS_KEY,
 	SERVER_APP_LOGGER_PROPS_KEY,
-} from '@/constants';
-import { getServerLogger } from '@/index';
+} from './constants';
+import { getServerLogger } from './getNextServerLogger';
 
 interface NextServerLoggerProviderProps {
 	pageProps: any;

@@ -1,2 +1,2 @@
-export { default as NextServerLoggerProvider }  from '@/NextServerLoggerProvider'
-export * from '@/getNextServerLogger'
+export { default as NextServerLoggerProvider } from './NextServerLoggerProvider';
+export * from './getNextServerLogger';
