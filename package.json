@@ -2,7 +2,32 @@
 	"name": "next-server-logger",
 	"private": true,
 	"version": "1.0.0",
+	"license": "MIT",
+	"description": "NextServerLogger is `next.js helper tool` that enable passing server logs, which define inside getServerSideProps, getStaticProps, or getInitialProps, to browser",
+	"homepage": "https://github.com/eddie0329/NextServerLogger",
+	"repository": "https://github.com/eddie0329/NextServerLogger.git",
+	"author": {
+		"name": "Eddie Choi",
+		"email": "choi.jongsun0329@gmail.com"
+	},
+	"bugs": {
+		"url": "https://github.com/eddie0329/NextServerLogger/issues",
+		"email": "choi.jongsun0329@gmail.com"
+	},
+	"files": [
+		"dist/*"
+	],
+	"engines": {
+		"node": ">=16.5.0"
+	},
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"require": "./dist/index.umd.js"
+		}
+	},
 	"type": "module",
+	"types": "./dist/index.d.ts",
 	"main": "dist/index.umd.cjs",
 	"module": "dist/index.js",
 	"scripts": {
@@ -19,7 +44,7 @@
 		"vite": "^4.0.0"
 	},
 	"peerDependencies": {
-		"react": "17.0.0"
+		"react": "^17.0.0"
 	},
 	"dependencies": {
 		"flatted": "^3.2.7"
