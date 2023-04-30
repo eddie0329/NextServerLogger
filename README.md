@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://npmjs.com/package/NextServerLogger"><img src="https://img.shields.io/npm/v/vue3-use-modal.svg" alt="npm package"></a>
+  <a href="https://npmjs.com/package/NextServerLogger"><img src="https://img.shields.io/npm/v/NextServerLogger" alt="npm package"></a>
   <a href="https://github.com/eddie0329/NextServerLogger/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PR WELCOME" /></a>
   <a href="https://github.com/eddie0329/NextServerLogger/tree/main/playground"><img src="https://img.shields.io/badge/%F0%9F%92%A1-examples-ff615b.svg?style=flat-square" alt="example" /></a>
   <a href="http://npm-stat.com/charts.html?package=NextServerLogger&from=2023-04-07"><img src="https://img.shields.io/npm/dm/NextServerLogger.svg?style=flat-square" alt="status" /></a>
