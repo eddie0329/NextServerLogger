@@ -8,8 +8,8 @@
 		"getServerSideProps",
 		"getInitialProps",
 		"getStaticProps",
-    "next logger",
-    "next server side logger"
+		"next logger",
+		"next server side logger"
 	],
 	"description": "NextServerLogger is `next.js helper tool` that enable passing server logs, which define inside getServerSideProps, getStaticProps, or getInitialProps, to browser",
 	"homepage": "https://github.com/eddie0329/NextServerLogger",
@@ -39,6 +39,7 @@
 	"main": "dist/index.umd.cjs",
 	"module": "dist/index.js",
 	"scripts": {
+		"deploy": "yarn build && yarn publish",
 		"dev": "vite build --watch",
 		"build": "tsc && vite build",
 		"install-peer": "yarn add react@17.0.0 --peer"
