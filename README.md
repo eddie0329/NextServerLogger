@@ -4,12 +4,15 @@
 
 
 ## 🤔 What is NextServerLogger?
+<p align="center">
+  <img src="./static/example.png" />
+</p>
 
 Have you ever had experience debugging code in `getServerSideProps, getStaticProps, or getInitailProps?` <br />
-It's hard to debug when application is deployed that need some extra steps to see actual logged. <br />
+It's hard to debug when application is deployed and need some extra steps to see actual logged. <br />
 Now use NextServerLogger and see logs in browser. 🎉
 
-NextServerLogger is `next.js helper tool` that enable passing server logs to browser.
+NextServerLogger is `next.js helper tool` that enable passing server logs, which define inside getServerSideProps, getStaticProps, or getInitialProps, to browser.
 
 ## 🛠 Installation
 
