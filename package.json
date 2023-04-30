@@ -6,7 +6,7 @@
 	"main": "dist/index.umd.cjs",
 	"module": "dist/index.js",
 	"scripts": {
-		"dev": "vite",
+		"dev": "vite build --watch",
 		"build": "tsc && vite build",
 		"install-peer": "yarn add react@17.0.0 --peer"
 	},
