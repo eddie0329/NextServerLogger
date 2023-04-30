@@ -2,6 +2,15 @@
 	"name": "next-server-logger",
 	"version": "1.0.0",
 	"license": "MIT",
+	"keywords": [
+		"next.js",
+		"next",
+		"getServerSideProps",
+		"getInitialProps",
+		"getStaticProps",
+    "next logger",
+    "next server side logger"
+	],
 	"description": "NextServerLogger is `next.js helper tool` that enable passing server logs, which define inside getServerSideProps, getStaticProps, or getInitialProps, to browser",
 	"homepage": "https://github.com/eddie0329/NextServerLogger",
 	"repository": "https://github.com/eddie0329/NextServerLogger.git",
